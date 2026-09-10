@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Veloura — Haute Beauté &amp; Parisian Aesthetic Sanctuary</title>
+<!-- Tailwind CSS CDN with plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&amp;family=Plus+Jakarta+Sans:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind Configuration -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            veloura: {
+              cream: '#FAF6F2',
+              champagne: '#FBF7F4',
+              blush: '#F4E6E1',
+              rose: '#EDD7D0',
+              nude: '#EBD5CC',
+              taupe: '#CBB4A7',
+              gold: '#C5A882',
+              bronze: '#A68261',
+              espresso: '#2A211E',
+              muted: '#7A6B65'
+            }
+          },
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          },
+          borderRadius: {
+            'arch': '220px 220px 24px 24px',
+            'arch-l': '260px 260px 28px 28px',
+            'diagonal-cut': '200px 30px 140px 30px',
+          }
+        }
+      }
+    }
+  </script>
+<!-- BEGIN: Custom Styles -->
+<style data-purpose="typography">
+    .font-editorial {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      letter-spacing: -0.02em;
+    }
+    .letter-widest-luxury {
+      letter-spacing: 0.22em;
+    }
+  </style>
+<style data-purpose="decorative-effects">
+    /* Subtle rotating circular badge text */
+    @keyframes spin-slow {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    .animate-spin-badge {
+      animation: spin-slow 28s linear infinite;
+    }
+    .animate-spin-badge:hover {
+      animation-play-state: paused;
+    }
+    
+    /* Arch card styling */
+    .arch-mask {
+      border-radius: 240px 240px 24px 24px;
+    }
+    .arch-mask-subtle {
+      border-radius: 140px 140px 20px 20px;
+    }
+    .asymmetric-mask {
+      border-radius: 170px 40px 140px 40px;
+    }
+    .soft-blur-orb {
+      filter: blur(60px);
+    }
+  </style>
+<!-- END: Custom Styles -->
+</head>
+<body class="bg-[#FBF7F4] text-veloura-espresso font-sans antialiased selection:bg-veloura-rose selection:text-veloura-espresso overflow-x-hidden">
+<!-- BEGIN: SiteHeader -->
+<header class="sticky top-0 z-50 bg-[#FBF7F4]/90 backdrop-blur-md border-b border-[#EBD5CC]/50 transition-all duration-300">
+<div class="max-w-7xl mx-auto px-6 md:px-10 py-4 flex items-center justify-between">
+<!-- Brand Logo -->
+<a aria-label="Veloura Home" class="group inline-flex items-baseline gap-1" href="#">
+<span class="font-serif text-3xl md:text-4xl tracking-tight text-veloura-espresso font-medium group-hover:text-veloura-bronze transition-colors">
+          Veloura
+        </span>
+<span class="w-1.5 h-1.5 rounded-full bg-veloura-gold"></span>
+</a>
+<!-- Desktop Navigation Links -->
+<nav class="hidden lg:flex items-center space-x-10 text-xs uppercase letter-widest-luxury font-medium text-veloura-muted">
+<a class="hover:text-veloura-espresso transition-colors" href="#manicure">Manicure and pedicure</a>
+<a class="hover:text-veloura-espresso transition-colors" href="#cosmetology">Cosmetology</a>
+<a class="hover:text-veloura-espresso transition-colors" href="#massage">Facial and body massage</a>
+<a class="hover:text-veloura-espresso transition-colors" href="#philosophy">Philosophy</a>
+</nav>
+<!-- Contact Phone & Quick Action Button -->
+<div class="flex items-center space-x-6">
+<a class="hidden sm:inline-block font-sans text-xs tracking-wider text-veloura-muted hover:text-veloura-espresso transition-colors" href="tel:00000000000">
+          0-000-000-00-00
+        </a>
+<a class="inline-flex items-center justify-center px-7 py-2.5 rounded-full bg-[#B58E72] hover:bg-veloura-espresso text-white text-xs font-medium tracking-widest uppercase transition-all duration-300 shadow-sm hover:shadow-md" href="#booking">
+          Sign up Online
+        </a>
+</div>
+</div>
+</header>
+<!-- END: SiteHeader -->
+<main>
+<!-- BEGIN: HeroSection -->
+<section class="relative pt-12 pb-24 md:py-28 overflow-hidden bg-gradient-to-b from-[#F5E6E2] via-[#F1DFD8] to-[#FBF7F4]" data-purpose="hero-banner">
+<!-- Reference-inspired organic backdrop champagne & dusty rose circular disks -->
+<div class="absolute -top-16 -left-16 w-[480px] h-[480px] rounded-full bg-[#EAD4CC]/60 pointer-events-none -z-0"></div>
+<div class="absolute top-24 left-1/4 w-72 h-72 rounded-full bg-[#FAECE7]/70 pointer-events-none -z-0"></div>
+<div class="absolute top-1/2 -right-20 w-[520px] h-[520px] rounded-full bg-[#ECD6CE]/50 pointer-events-none -z-0"></div>
+<div class="max-w-7xl mx-auto px-6 md:px-10 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-10 items-center">
+<!-- Left Column: Editorial Headline & Actions -->
+<div class="lg:col-span-6 z-10">
+<!-- Studio Subhead -->
+<div class="inline-flex items-center gap-3 mb-6">
+<span class="text-sm font-sans tracking-[0.2em] uppercase text-veloura-muted font-light">Beauty studio</span>
+<span class="w-10 h-[1px] bg-veloura-taupe/60"></span>
+</div>
+<!-- Primary Headline with quotation marks matching reference -->
+<h1 class="font-serif text-6xl sm:text-7xl xl:text-8xl font-normal tracking-tight text-veloura-espresso leading-[0.95] mb-8">
+              “Veloura”
+            </h1>
+<!-- Hero Action Pill Button matching reference -->
+<div class="mb-10">
+<a class="inline-flex items-center justify-center px-10 py-3.5 rounded-full bg-[#B58E72] hover:bg-veloura-espresso text-white font-medium text-sm tracking-wide shadow-md hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300" href="#booking">
+                Sign up Online
+              </a>
+</div>
+<!-- Minimalist editorial card snippet -->
+<div class="relative max-w-sm p-6 rounded-2xl bg-white/50 backdrop-blur-md border border-[#EBD5CC]/60 shadow-sm">
+<p class="text-xs md:text-sm text-veloura-muted font-light leading-relaxed">
+                Professional care, a calm atmosphere and a result that you will feel throughout your entire body and mind.
+              </p>
+</div>
+</div>
+<!-- Right Column: Hero Visual with Reference-Accurate Arch & Circular Text Stamp -->
+<div class="lg:col-span-6 relative flex justify-center lg:justify-end">
+<!-- Decorative Spinning Circular Badge -->
+<div class="absolute -top-8 -left-6 sm:top-2 sm:-left-12 z-30 w-44 h-44 md:w-48 md:h-48 pointer-events-auto">
+<div class="relative w-full h-full flex items-center justify-center animate-spin-badge">
+<svg class="w-full h-full fill-current text-veloura-bronze" viewbox="0 0 170 170">
+<path d="M 85, 85 m -66, 0 a 66,66 0 1,1 132,0 a 66,66 0 1,1 -132,0" fill="transparent" id="heroCirclePath"></path>
+<text class="text-[10px] uppercase tracking-[0.26em] font-medium fill-current">
+<textpath href="#heroCirclePath" startoffset="0%">
+                      • A BEAUTY SALON WHERE TAKING CARE OF YOURSELF IS A PLEASURE •
+                    </textpath>
+</text>
+</svg>
+</div>
+</div>
+<!-- Main Arch Hero Image Frame: High-End Velvet Parisian Studio -->
+<div class="relative w-full max-w-md sm:max-w-lg aspect-[3/4] overflow-hidden arch-mask shadow-2xl bg-[#E8DDD0]/50 p-2.5 border border-[#EBD5CC]">
+<img alt="Veloura Parisian Luxury Salon Atmosphere" class="w-full h-full object-cover object-center arch-mask transition-transform duration-700 hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDeNIXm_tagLaqqfJZUauOC3QETEnaHLUXgdvO4DBEyGcmqMnJnVemuufxzaK0VxE_EktvB9F4iV1YVUVRpReVlRjQSts2T5fkYEP1EDj2LXYafZJWvnAuHmid8QltbFjaKYOH0E9RrWvTlztjnKLz9ijG1HE8T-jypzZtiR6kFVmCbi3IekMPudDBzIdnFVgZgox0aBqWdqxCwGLFgW1Z3R8ejTWNZk2vJ4nIOG5jux-ibtOKR5DQ"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: HeroSection -->
+<!-- BEGIN: PhilosophySection -->
+<section class="py-16 md:py-24 bg-[#FBF7F4] relative border-t border-[#EBD5CC]/40" data-purpose="philosophy-manifesto" id="philosophy">
+<div class="max-w-4xl mx-auto px-6 text-center">
+<span class="text-xs uppercase tracking-[0.28em] text-veloura-bronze font-medium block mb-3">Our Mission</span>
+<h2 class="font-serif text-4xl sm:text-5xl md:text-6xl text-veloura-espresso font-normal tracking-tight mb-8">
+          Services
+        </h2>
+<p class="text-sm sm:text-base md:text-lg text-veloura-muted font-light leading-relaxed max-w-2xl mx-auto">
+          We have created a space where you can slow down, relax and entrust yourself to certified professionals. Our salon is built upon careful care, devotion to detail, and the ultimate comfort of each client.
+        </p>
+</div>
+</section>
+<!-- END: PhilosophySection -->
+<!-- BEGIN: CuratedServicesShowcase -->
+<section class="py-12 md:py-20 bg-[#FBF7F4]" data-purpose="services-grid" id="services">
+<div class="max-w-7xl mx-auto px-6 md:px-10">
+<!-- Reference Inspired 3-column Service Layout -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-10 items-center">
+<!-- Service 1: Manicure & Pedicure (IMAGE_9 with Elegant Arch Frame) -->
+<div class="md:col-span-4 flex flex-col items-center text-center group" id="manicure">
+<div class="relative w-full max-w-[280px] aspect-[4/5] arch-mask-subtle overflow-hidden bg-[#F4E6E1] p-2 shadow-lg mb-6 group-hover:shadow-xl transition-all duration-300 border border-[#EBD5CC]">
+<img alt="Manicure and pedicure aesthetic studio" class="w-full h-full object-cover object-center arch-mask-subtle group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDV8WYz9OphSBgAJK3ICAACjcEJZiNUdHH3Mk3_RRLRVkDEutdKky4iwQ7WbZtsK7H0WsHZ0G9sd95tCR77e88Sd4NZliChxdhrw05BM-jLvv1HqfzHgV7qfe5smQxoFDN6tui4sRwwJmlhn1jkLIGE_6gjtcdDy2C_XGGKrBVrVTyLKNRzGhuuPfbEzJj_PiXEQa0mjLOUCLh0x-we9Eh5NexR8Izpd1VbZEOyHdZhAX_-aOUrPag"/>
+</div>
+<h3 class="font-serif text-2xl text-veloura-espresso font-normal tracking-tight mb-2 group-hover:text-veloura-bronze transition-colors">
+              Manicure and pedicure
+            </h3>
+<p class="text-xs text-veloura-muted tracking-wider uppercase font-light">Organic oils • Nail architecture • SPA care</p>
+</div>
+<!-- Service 2: Cosmetology Treatment Tools (IMAGE_10 in Rounded Pill Frame) -->
+<div class="md:col-span-4 flex flex-col items-center text-center group" id="cosmetology">
+<div class="relative w-full max-w-[280px] aspect-[4/5] rounded-full overflow-hidden bg-[#F1DFD8] p-3 shadow-lg mb-6 group-hover:shadow-xl transition-all duration-300 flex items-center justify-center border border-[#EBD5CC]">
+<img alt="Cosmetology modern skin therapies" class="w-full h-full object-cover object-center rounded-full group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAHYSg8W8pKuaON2xTnmkb4z013LHqQnsMpQyw76T3IDO6n9S3advJNm8RlvIGHjeXaN3zHd4P2QuFjh0PpdGokS9M7SX8T9rZXe6LJ0o6S5wVmx59hCocusSjoDPq7xBzYHqPinziSOGPiMLk5bj4qInOJvRiGr79Kttf8CXzr0kNS1TWj0_wDPqGpwQ7W2Oh8WwRjcd5O-Celz985TXWRS3wL4mINNQePC4TNd-K9R0LZ-yV9qiE"/>
+</div>
+<h3 class="font-serif text-2xl text-veloura-espresso font-normal tracking-tight mb-2 group-hover:text-veloura-bronze transition-colors">
+              Cosmetology
+            </h3>
+<p class="text-xs text-veloura-muted tracking-wider uppercase font-light">Skin Peels • Hydrafacial • Deep Cleanse</p>
+</div>
+<!-- Service 3: Facial Architecture / Hair & Glow (IMAGE_5 in Diagonal / Asymmetrical Curved Shape) -->
+<div class="md:col-span-4 flex flex-col items-center text-center group">
+<div class="relative w-full max-w-[320px] aspect-[3/4] asymmetric-mask overflow-hidden bg-[#EDD7D0] p-2 shadow-lg mb-6 group-hover:shadow-xl transition-all duration-300 border border-[#EBD5CC]">
+<img alt="Facial Architecture &amp; Radiant Glow" class="w-full h-full object-cover object-center asymmetric-mask group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1VTuiPhmLZVKIJtW_o_hLPYeYILnf4GjaymX4rpwNfXF33yaMUg5oVyAnbLr42nxtWEXJNAQIHd2KsgGbcxYtAmaAEW7-m3Sd_ROP1ZJpUfJn_C6bbhONZBPW6DNw6r1S13digfKsf3jU_pQ5Rer2uEDrf6z8NIFc8UNHjBBP6ozvFzkp8Hh4LZKp9i9JxT2z9rv9H1N_lLlCmgoiqxlurX2YV0_hM6OIQ6uwzpqey6in5W_fK3Q_aH"/>
+</div>
+<h3 class="font-serif text-2xl text-veloura-espresso font-normal tracking-tight mb-2 group-hover:text-veloura-bronze transition-colors">
+              Facial Architecture
+            </h3>
+<p class="text-xs text-veloura-muted tracking-wider uppercase font-light">Lymphatic Sculpting • Glow Recovery</p>
+</div>
+</div>
+</div>
+</section>
+<!-- END: CuratedServicesShowcase -->
+<!-- BEGIN: DeepMassageSection -->
+<section class="py-20 md:py-32 bg-gradient-to-b from-[#F5E6E2]/70 via-[#F3E2DC]/60 to-[#FBF7F4] relative border-t border-b border-[#EBD5CC]/50" data-purpose="massage-details" id="massage">
+<!-- Decorative background elements -->
+<div class="absolute top-1/3 left-10 w-96 h-96 rounded-full bg-[#EBD5CC]/40 soft-blur-orb pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-6 md:px-10 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+<!-- Left Visual: Large Portrait Frame with Arch Styling -->
+<div class="lg:col-span-5 flex justify-center">
+<div class="w-full max-w-md aspect-[3/4] arch-mask overflow-hidden shadow-2xl bg-[#E8DDD0]/50 p-2.5 border border-[#EBD5CC]">
+<img alt="Facial and body massage ritual" class="w-full h-full object-cover object-center arch-mask hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida/AEtjO1VTuiPhmLZVKIJtW_o_hLPYeYILnf4GjaymX4rpwNfXF33yaMUg5oVyAnbLr42nxtWEXJNAQIHd2KsgGbcxYtAmaAEW7-m3Sd_ROP1ZJpUfJn_C6bbhONZBPW6DNw6r1S13digfKsf3jU_pQ5Rer2uEDrf6z8NIFc8UNHjBBP6ozvFzkp8Hh4LZKp9i9JxT2z9rv9H1N_lLlCmgoiqxlurX2YV0_hM6OIQ6uwzpqey6in5W_fK3Q_aH"/>
+</div>
+</div>
+<!-- Right Content: Split Detail Blocks matching reference rhythm -->
+<div class="lg:col-span-7 space-y-10">
+<!-- Section Heading -->
+<div>
+<span class="text-xs uppercase tracking-[0.25em] text-veloura-bronze font-medium block mb-2">Holistic Wellness</span>
+<h2 class="font-serif text-4xl sm:text-5xl lg:text-6xl text-veloura-espresso font-normal tracking-tight">
+                Facial and body massage
+              </h2>
+</div>
+<!-- Treatment Block A: Gua Sha / Facial Sculpting with IMAGE_4 -->
+<div class="grid grid-cols-1 sm:grid-cols-12 gap-6 items-center bg-white/70 backdrop-blur-md p-6 sm:p-8 rounded-3xl border border-[#EBD5CC] shadow-sm">
+<div class="sm:col-span-7">
+<h4 class="font-serif text-2xl text-veloura-espresso font-medium mb-3">Facial Lifting &amp; Gua Sha</h4>
+<p class="text-xs sm:text-sm text-veloura-muted leading-relaxed font-light">
+                  A gentle technique aimed at relaxing muscles, improving blood circulation and skin tone. It helps to remove puffiness, even out the tone of the face and restore freshness and radiance to the skin.
+                </p>
+<div class="mt-5 flex items-center gap-5">
+<span class="text-sm font-medium text-veloura-bronze tracking-wide">60 min / $120</span>
+<a class="text-xs uppercase tracking-widest font-semibold text-veloura-espresso underline underline-offset-4 hover:text-veloura-bronze transition-colors" href="#booking">Book this →</a>
+</div>
+</div>
+<div class="sm:col-span-5">
+<div class="w-full aspect-[4/3] rounded-2xl overflow-hidden shadow-md border border-[#EBD5CC]/60">
+<img alt="Facial Gua Sha Technique" class="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1X9SJidMurfgKk0s26a62Yirp4o_LQUCOjCy1z5weIBgqMtkPGlWyeXyB4c5qEF4ntiRAeH3BLc7aE7fmBIOwoVQk6foCXBrsBFq84MZioqgcDYjc5PlgTro_ihgSE-DFnJshNJM7riuh5wkkRUEocmrTGILNhbJXmGrH6X3oWXpBI-D3BQNZOvbRfuXDXsDkCUKS4Viyols9MZXh96BZcwDt1BZ3hkRPy6qrPIJQ5bJl_EXx_FwnhpmQ"/>
+</div>
+</div>
+</div>
+<!-- Treatment Block B: Deep Body Massage with IMAGE_3 -->
+<div class="grid grid-cols-1 sm:grid-cols-12 gap-6 items-center bg-white/70 backdrop-blur-md p-6 sm:p-8 rounded-3xl border border-[#EBD5CC] shadow-sm">
+<div class="sm:col-span-5 order-2 sm:order-1">
+<div class="w-full aspect-[4/3] rounded-2xl overflow-hidden shadow-md border border-[#EBD5CC]/60">
+<img alt="Deep Body Massage Therapy" class="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida/AEtjO1UpziOYnEfiRYt2RR7p0qVxsMXi0c_LtOfM6KJvavU8dHfCMj5XJN_yWpBpCVhW5ZIkBaTLgIfAjJ2XKNwuDtd_rpVcdtGbKl0wOVU7bmaZ7QNc_kVs7TRWUubc5whNLMZdojEXFdeU9rY1TuDfXsRbmOxHWSMhvaVywHqRLqyTpd3l9g7P5uLieQH3cZePsJ86AAMSp-UTcCdNSLBZybODtZA-EBd6lu7wmKb5zwYc7yTg4yMq7jD2CA"/>
+</div>
+</div>
+<div class="sm:col-span-7 order-1 sm:order-2">
+<h4 class="font-serif text-2xl text-veloura-espresso font-medium mb-3">Deep Body Relaxation</h4>
+<p class="text-xs sm:text-sm text-veloura-muted leading-relaxed font-light">
+                  Deep relaxation for body and mind. Improves blood circulation, relieves muscle tension and fatigue, helps restore balance and a lasting feeling of lightness.
+                </p>
+<div class="mt-5 flex items-center gap-5">
+<span class="text-sm font-medium text-veloura-bronze tracking-wide">90 min / $175</span>
+<a class="text-xs uppercase tracking-widest font-semibold text-veloura-espresso underline underline-offset-4 hover:text-veloura-bronze transition-colors" href="#booking">Book this →</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: DeepMassageSection -->
+<!-- BEGIN: BookingCTASection -->
+<section class="py-20 md:py-28 bg-[#FBF7F4] relative overflow-hidden" data-purpose="booking-form" id="booking">
+<!-- Organic ambient shapes -->
+<div class="absolute -bottom-20 -right-20 w-96 h-96 rounded-full bg-[#F4E6E1] soft-blur-orb pointer-events-none"></div>
+<div class="max-w-4xl mx-auto px-6 relative z-10">
+<div class="relative bg-gradient-to-br from-[#F6ECE7] to-[#EFE2DB] rounded-3xl p-8 sm:p-12 md:p-16 border border-[#EBD5CC] shadow-xl text-center">
+<span class="text-xs uppercase tracking-[0.25em] text-veloura-bronze font-medium block mb-3">Reservations</span>
+<h2 class="font-serif text-4xl sm:text-5xl text-veloura-espresso font-normal tracking-tight mb-4">
+            Begin Your Veloura Ritual
+          </h2>
+<p class="text-veloura-muted font-light max-w-xl mx-auto mb-10 text-xs sm:text-sm md:text-base leading-relaxed">
+            Choose your signature treatment and optimal time. Our Parisian-trained beauty concierges will curate an unforgettable experience.
+          </p>
+<!-- Appointment Request Form -->
+<form class="grid grid-cols-1 sm:grid-cols-2 gap-5 max-w-2xl mx-auto text-left" onsubmit="event.preventDefault(); alert('Merci! A Veloura concierge will contact you shortly to finalize your appointment.');">
+<!-- Full Name -->
+<div>
+<label class="block text-xs uppercase tracking-wider text-veloura-muted mb-1.5 font-medium">Your Name</label>
+<input class="w-full px-4 py-3.5 rounded-xl bg-white/80 border border-[#EBD5CC] text-veloura-espresso placeholder-veloura-taupe/70 text-sm focus:ring-1 focus:ring-veloura-bronze focus:border-veloura-bronze transition-all" placeholder="Camille Laurent" required="" type="text"/>
+</div>
+<!-- Phone Number -->
+<div>
+<label class="block text-xs uppercase tracking-wider text-veloura-muted mb-1.5 font-medium">Phone Number</label>
+<input class="w-full px-4 py-3.5 rounded-xl bg-white/80 border border-[#EBD5CC] text-veloura-espresso placeholder-veloura-taupe/70 text-sm focus:ring-1 focus:ring-veloura-bronze focus:border-veloura-bronze transition-all" placeholder="+1 (555) 000-0000" required="" type="tel"/>
+</div>
+<!-- Desired Ritual -->
+<div>
+<label class="block text-xs uppercase tracking-wider text-veloura-muted mb-1.5 font-medium">Treatment Preference</label>
+<select class="w-full px-4 py-3.5 rounded-xl bg-white/80 border border-[#EBD5CC] text-veloura-espresso text-sm focus:ring-1 focus:ring-veloura-bronze focus:border-veloura-bronze transition-all">
+<option>Facial Lifting &amp; Gua Sha ($120)</option>
+<option>Deep Body Relaxation Massage ($175)</option>
+<option>Hydrafacial Glow Cosmetology ($150)</option>
+<option>Rose &amp; Marble Signature Manicure ($85)</option>
+<option>Comprehensive Day Sanctuary ($320)</option>
+</select>
+</div>
+<!-- Date -->
+<div>
+<label class="block text-xs uppercase tracking-wider text-veloura-muted mb-1.5 font-medium">Preferred Date</label>
+<input class="w-full px-4 py-3.5 rounded-xl bg-white/80 border border-[#EBD5CC] text-veloura-espresso text-sm focus:ring-1 focus:ring-veloura-bronze focus:border-veloura-bronze transition-all" type="date"/>
+</div>
+<!-- Submit Button -->
+<div class="sm:col-span-2 mt-4 text-center">
+<button class="w-full sm:w-auto px-12 py-4 rounded-full bg-[#B58E72] hover:bg-veloura-espresso text-white text-xs font-semibold uppercase tracking-widest transition-all duration-300 shadow-md hover:shadow-xl hover:-translate-y-0.5" type="submit">
+                Confirm Appointment Request
+              </button>
+</div>
+</form>
+</div>
+</div>
+</section>
+<!-- END: BookingCTASection -->
+</main>
+<!-- BEGIN: SiteFooter -->
+<footer class="bg-[#F0DDD6] border-t border-[#EBD5CC] py-12 md:py-16 text-veloura-espresso" data-purpose="footer">
+<div class="max-w-7xl mx-auto px-6 md:px-10">
+<!-- Primary Footer Bar matching Reference Layout -->
+<div class="flex flex-col md:flex-row items-center justify-between gap-8 pb-10 border-b border-[#E0CAC0]">
+<!-- Logo -->
+<a class="font-serif text-3xl font-medium tracking-tight text-veloura-espresso hover:text-veloura-bronze transition-colors" href="#">
+          Veloura
+        </a>
+<!-- Centered Quick Links -->
+<div class="flex flex-wrap justify-center items-center gap-6 md:gap-10 text-xs uppercase letter-widest-luxury text-veloura-muted font-medium">
+<a class="hover:text-veloura-espresso transition-colors" href="#manicure">Manicure and pedicure</a>
+<a class="hover:text-veloura-espresso transition-colors" href="#cosmetology">Cosmetology</a>
+<a class="hover:text-veloura-espresso transition-colors" href="#massage">Facial and body massage</a>
+</div>
+<!-- Phone Contact -->
+<a class="text-xs md:text-sm font-sans tracking-wider text-veloura-muted hover:text-veloura-espresso transition-colors" href="tel:00000000000">
+          0-000-000-00-00
+        </a>
+</div>
+<!-- Secondary Sub-footer with Operating Hours and Copyright -->
+<div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-veloura-muted gap-4">
+<p class="">Mon - Sun: 10:00 AM — 09:00 PM • Valet Parking Available</p>
+<p class="">© 2025 Veloura Beauty Studio. Inspired by modern Parisian boutique salon aesthetics.</p>
+</div>
+</div>
+</footer>
+<!-- END: SiteFooter -->
+</body></html>

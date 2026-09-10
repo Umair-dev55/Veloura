@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .font-editorial {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    letter-spacing: -0.02em;
+  }
+  .letter-widest-luxury {
+    letter-spacing: 0.22em;
+  }
+  .arch-mask {
+    border-radius: 240px 240px 24px 24px;
+  }
+  .arch-mask-subtle {
+    border-radius: 140px 140px 20px 20px;
+  }
+  .asymmetric-mask {
+    border-radius: 170px 40px 140px 40px;
+  }
+  .soft-blur-orb {
+    filter: blur(60px);
+  }
+}
+
+/* Subtle rotating circular badge animation */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-badge {
+  animation: spin-slow 28s linear infinite;
+}
+
+.animate-spin-badge:hover {
+  animation-play-state: paused;
+}
