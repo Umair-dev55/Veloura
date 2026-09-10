@@ -4,7 +4,7 @@ export default function Hero({ onBookClick }) {
   const heroImage = "https://lh3.googleusercontent.com/aida-public/AB6AXuDeNIXm_tagLaqqfJZUauOC3QETEnaHLUXgdvO4DBEyGcmqMnJnVemuufxzaK0VxE_EktvB9F4iV1YVUVRpReVlRjQSts2T5fkYEP1EDj2LXYafZJWvnAuHmid8QltbFjaKYOH0E9RrWvTlztjnKLz9ijG1HE8T-jypzZtiR6kFVmCbi3IekMPudDBzIdnFVgZgox0aBqWdqxCwGLFgW1Z3R8ejTWNZk2vJ4nIOG5jux-ibtOKR5DQ";
 
   return (
-    <section className="relative pt-12 pb-24 md:py-28 overflow-hidden bg-gradient-to-b from-[#F5E6E2] via-[#F1DFD8] to-[#FBF7F4]" data-purpose="hero-banner">
+    <section className="relative pt-12 pb-24 md:py-0 overflow-hidden bg-gradient-to-b from-[#F5E6E2] via-[#F1DFD8] to-[#FBF7F4]" data-purpose="hero-banner">
       {/* Reference-inspired organic backdrop champagne & dusty rose circular disks */}
       <div className="absolute -top-16 -left-16 w-[480px] h-[480px] rounded-full bg-[#EAD4CC]/60 pointer-events-none -z-0"></div>
       <div className="absolute top-24 left-1/4 w-72 h-72 rounded-full bg-[#FAECE7]/70 pointer-events-none -z-0"></div>
