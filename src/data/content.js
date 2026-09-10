@@ -46,7 +46,7 @@ export const curatedServices = [
     bgClass: "bg-[#EDD7D0]",
     aspectClass: "aspect-[3/4]",
     maxW: "max-w-[320px]",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6A…0aBqWdqxCwGLFgW1Z3R8ejTWNZk2vJ4nIOG5jux-ibtOKR5DQ",
+    image: "https://ik.imagekit.io/x9svten4i/Veloura/hero.jpg?updatedAt=1789036975062",
     treatmentValue: "Facial Lifting & Gua Sha ($120)"
   }
 ];
