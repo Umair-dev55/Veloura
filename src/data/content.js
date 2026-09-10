@@ -46,7 +46,7 @@ export const curatedServices = [
     bgClass: "bg-[#EDD7D0]",
     aspectClass: "aspect-[3/4]",
     maxW: "max-w-[320px]",
-    image: "https://lh3.googleusercontent.com/aida/AEtjO1VTuiPhmLZVKIJtW_o_hLPYeYILnf4GjaymX4rpwNfXF33yaMUg5oVyAnbLr42nxtWEXJNAQIHd2KsgGbcxYtAmaAEW7-m3Sd_ROP1ZJpUfJn_C6bbhONZBPW6DNw6r1S13digfKsf3jU_pQ5Rer2uEDrf6z8NIFc8UNHjBBP6ozvFzkp8Hh4LZKp9i9JxT2z9rv9H1N_lLlCmgoiqxlurX2YV0_hM6OIQ6uwzpqey6in5W_fK3Q_aH",
+    image: "https://lh3.googleusercontent.com/aida-public/AB6A…0aBqWdqxCwGLFgW1Z3R8ejTWNZk2vJ4nIOG5jux-ibtOKR5DQ",
     treatmentValue: "Facial Lifting & Gua Sha ($120)"
   }
 ];
