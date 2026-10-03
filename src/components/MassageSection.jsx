@@ -1,13 +1,14 @@
-import React from 'react';
-import { massageTreatments } from '../data/content';
+import React from "react";
+import { massageTreatments } from "../data/content";
 
 export default function MassageSection({ onSelectTreatment }) {
-  const largePortraitImage = "https://lh3.googleusercontent.com/aida/AEtjO1VTuiPhmLZVKIJtW_o_hLPYeYILnf4GjaymX4rpwNfXF33yaMUg5oVyAnbLr42nxtWEXJNAQIHd2KsgGbcxYtAmaAEW7-m3Sd_ROP1ZJpUfJn_C6bbhONZBPW6DNw6r1S13digfKsf3jU_pQ5Rer2uEDrf6z8NIFc8UNHjBBP6ozvFzkp8Hh4LZKp9i9JxT2z9rv9H1N_lLlCmgoiqxlurX2YV0_hM6OIQ6uwzpqey6in5W_fK3Q_aH";
+  const largePortraitImage =
+    "https://ik.imagekit.io/x9svten4i/Veloura/unnamed%20(1).jpg?updatedAt=1789037060249";
 
   return (
-    <section 
-      className="py-20 md:py-32 bg-gradient-to-b from-[#F5E6E2]/70 via-[#F3E2DC]/60 to-[#FBF7F4] relative border-t border-b border-[#EBD5CC]/50" 
-      data-purpose="massage-details" 
+    <section
+      className="py-20 md:py-32 bg-gradient-to-b from-[#F5E6E2]/70 via-[#F3E2DC]/60 to-[#FBF7F4] relative border-t border-b border-[#EBD5CC]/50"
+      data-purpose="massage-details"
       id="massage"
     >
       {/* Decorative background elements */}
@@ -54,7 +55,10 @@ export default function MassageSection({ onSelectTreatment }) {
                   </span>
                   <button
                     type="button"
-                    onClick={() => onSelectTreatment && onSelectTreatment(massageTreatments[0].treatmentValue)}
+                    onClick={() =>
+                      onSelectTreatment &&
+                      onSelectTreatment(massageTreatments[0].treatmentValue)
+                    }
                     className="text-xs uppercase tracking-widest font-semibold text-veloura-espresso underline underline-offset-4 hover:text-veloura-bronze transition-colors cursor-pointer"
                   >
                     Book this →
@@ -98,7 +102,10 @@ export default function MassageSection({ onSelectTreatment }) {
                   </span>
                   <button
                     type="button"
-                    onClick={() => onSelectTreatment && onSelectTreatment(massageTreatments[1].treatmentValue)}
+                    onClick={() =>
+                      onSelectTreatment &&
+                      onSelectTreatment(massageTreatments[1].treatmentValue)
+                    }
                     className="text-xs uppercase tracking-widest font-semibold text-veloura-espresso underline underline-offset-4 hover:text-veloura-bronze transition-colors cursor-pointer"
                   >
                     Book this →
@@ -106,7 +113,6 @@ export default function MassageSection({ onSelectTreatment }) {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
